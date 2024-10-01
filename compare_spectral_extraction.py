@@ -19,7 +19,7 @@ ind=9
 def runplot(ind):
 
     # Get 2D spectra data
-    s2d_list = [f for f in sorted(glob.glob('pipelinefinal/*_s2d.fits'))]
+    s2d_list = [f for f in sorted(glob.glob('excels/pipelinefinal/*_s2d.fits'))]
     s2d_file = s2d_list[ind]
 
     # Run optimal extractor

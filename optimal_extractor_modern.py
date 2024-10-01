@@ -1,9 +1,9 @@
 import sys
-sys.path.insert(1, '/Users/struanstevenson/Desktop/PhD Research/excels/dependencies')
+sys.path.insert(1, '/Users/struanstevenson/Desktop/PhD Research/nested-sampling/nested_sampling')
 import numpy as np
 from jwst import datamodels
-from dependencies.mh_sampler import metropolis_hastings
-from dependencies.nested_sampler import nested_sampler
+from mh_sampler import metropolis_hastings
+from nested_sampler import nested_sampler
 import warnings
 
 
